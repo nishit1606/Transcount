@@ -28,6 +28,7 @@ class NewTransaction extends StatelessWidget {
               controller: amountController,
               // onChanged: (val) => amountInput = val,
             ),
+            // ignore: deprecated_member_use
             FlatButton(
               child: Text('Add Transaction'),
               textColor: Colors.purple,
